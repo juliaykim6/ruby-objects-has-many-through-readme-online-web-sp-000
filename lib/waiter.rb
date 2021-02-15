@@ -16,5 +16,6 @@ class Waiter
 
   def new_meal(customer, total, tip = 0)
     Mean.new(self, customer, total, tip)
-  end 
+  end
+
 end
